@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T21:36:42.566Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vjD84MQZlNqK6tcu0Hpo" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T21:36:53.096Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QIYVyo3RbHjrnRW5OZ38" version="22.1.16" type="github">
   <diagram name="Page-1" id="X-SWMNVgun2v9ZU_bXVO">
     <mxGraphModel dx="1434" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="PhVRFwQ20TvV-iRFCezO-9" value="Take error report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-10">
           <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PhVRFwQ20TvV-iRFCezO-11" value="Reboot system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-10">
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-11" value="Reboot system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-10">
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PhVRFwQ20TvV-iRFCezO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-3" target="PhVRFwQ20TvV-iRFCezO-20">
