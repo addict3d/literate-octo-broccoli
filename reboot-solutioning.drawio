@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T21:25:05.795Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="22.1.16" etag="50gEhdn92UlQePYfqiYB" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T21:36:24.336Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DSQNucLMfTvlFuK85IHz" version="22.1.16" type="github">
   <diagram name="Page-1" id="X-SWMNVgun2v9ZU_bXVO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-1" value="Health Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="425" width="500" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PhVRFwQ20TvV-iRFCezO-1" source="PhVRFwQ20TvV-iRFCezO-2" target="PhVRFwQ20TvV-iRFCezO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-2" value="&#39;Reboot&#39; HTTP entry point" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-1">
+          <mxGeometry x="20" y="200" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-10" value="&#39;Reboot&#39; Behavior" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-1">
+          <mxGeometry x="290" y="155" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-9" value="Take error report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-10">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-11" value="Reboot system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-10">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-3" target="PhVRFwQ20TvV-iRFCezO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-3" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-12" value="CoPilot Frontend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="500" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-13" value="&#39;Reboot&#39; Button in diagnostic area." style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-12">
+          <mxGeometry x="20" y="100" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-13" target="PhVRFwQ20TvV-iRFCezO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-18" target="PhVRFwQ20TvV-iRFCezO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-18" value="RJG Tech Support" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-19" target="PhVRFwQ20TvV-iRFCezO-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-19" value="SSH&lt;br&gt;&lt;br&gt;Run a pre-defined &#39;reboot&#39; script.&lt;br&gt;&lt;br&gt;If the web interface is not reachable&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;and the unit is accessible on the network." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-20" target="PhVRFwQ20TvV-iRFCezO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Clients will normally use the web interface.&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Under &#39;normal&#39; troubleshooting circumstances, as long as the system is reachable and the frontend is functioning.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-22" value="CoPilot OS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="580" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-23" value="&#39;Reboot&#39; shell script" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PhVRFwQ20TvV-iRFCezO-22">
+          <mxGeometry x="30" y="65" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PhVRFwQ20TvV-iRFCezO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhVRFwQ20TvV-iRFCezO-23" target="PhVRFwQ20TvV-iRFCezO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="680" />
+              <mxPoint x="550" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
